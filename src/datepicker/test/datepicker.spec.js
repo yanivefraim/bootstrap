@@ -135,7 +135,7 @@ describe('datepicker directive', function () {
     });
 
     it('renders the week numbers based on ISO 8601', function() {
-      expect(getWeeks()).toEqual(['34', '35', '36', '37', '38', '39']);
+      expect(getWeeks()).toEqual(['35', '36', '37', '38', '39', '40']);
     });
 
     it('value is correct', function() {
