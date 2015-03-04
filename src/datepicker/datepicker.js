@@ -262,7 +262,7 @@ angular.module('ui.bootstrap.datepicker', ['ui.bootstrap.dateparser', 'ui.bootst
           var weekNumber = getISO8601WeekNumber( scope.rows[0][6].date ),
               numWeeks = scope.rows.length;
           while( scope.weekNumbers.push(weekNumber++) < numWeeks && weekNumber < 53) {}
-          weekNumber = 1;  
+          weekNumber = 1;
           while( scope.weekNumbers.push(weekNumber++) < numWeeks ) {}
         }
       };
